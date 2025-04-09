@@ -1,0 +1,34 @@
+{
+    "gpu_vendor": "nvidia",
+    "gpus": [
+        {
+            "id": 0,
+            "fan_curve": [
+                { "temp": 40, "speed": 25 },
+                { "temp": 60, "speed": 40 },
+                { "temp": 75, "speed": 60 },
+                { "temp": 85, "speed": 100 }
+            ]
+        },
+        {
+            "id": 1,
+            "fan_curve": [
+                { "temp": 40, "speed": 25 },
+                { "temp": 60, "speed": 45 },
+                { "temp": 70, "speed": 60 },
+                { "temp": 80, "speed": 100 }
+            ]
+        },
+        {
+            "id": 2,
+            "fan_curve": [
+                { "temp": 40, "speed": 25 },
+                { "temp": 60, "speed": 45 },
+                { "temp": 70, "speed": 60 },
+                { "temp": 80, "speed": 100 }
+            ]
+        }
+    ],
+    "interval": 4,
+    "temp_samples": 4
+}
