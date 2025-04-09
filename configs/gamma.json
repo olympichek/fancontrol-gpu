@@ -1,0 +1,17 @@
+{
+    "gpu_vendor": "amd",
+    "gpus": [
+        {
+            "id": 0,
+            "fan_curve": [
+                { "temp": 40, "speed": 25 },
+                { "temp": 60, "speed": 40 },
+                { "temp": 75, "speed": 60 },
+                { "temp": 80, "speed": 75 },
+                { "temp": 85, "speed": 100 }
+            ]
+        }
+    ],
+    "interval": 4,
+    "temp_samples": 4
+}
